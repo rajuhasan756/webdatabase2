@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.nav{
+    width: 100%;
+     background-color: rgb(37, 37, 185);
+    height: 150px;
+    background-image: url("math.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -9;
+    font-weight: bold;
+    
+}
+
+.list{
+  width: 100%;
+  background-color: rgba(224, 171, 217, 0.568);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.list ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    float: right;
+    
+    
+  }
+  
+  li {
+    float: left;
+    margin: 0px 10px ;
+    border: 3px;
+    font-size: 25px;
+    
+  }
+  
+  li a {
+    display: ;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color:rgb(169, 143, 229);
+    transition: 0.1s;
+    text-transform: uppercase;
+
+  }
+  .search-container{
+    position: absolute;;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(66, 55, 55);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;  
+}
+.search-container:hover> .search-txt{
+  width: 300px;
+  padding: 0px 6px;
+}
+.src-btn{
+  width: 15px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(122, 194, 212);
+  background-color:rgb(66, 55, 55);
+
+
+}
+.search-txt{
+  border: none;
+  background: white;
+  outline: none;
+  float: left;
+  color: rgb(243, 241, 241);
+  transition: 0.4s;
+  line-height: 50%;
+  width: 0;
+
+}
+.ter{
+  margin:15px;
+  color: #f6f9fa;
+}
+.cat{
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(17, 17, 17);
+  text-align: center;
+  text-anchor: middle;
+  font-size: 12px;;
+  color: white;
+  border: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  opacity: .7;
+  z-index: -9;
+  
+}
+
+
+.container0{
+    
+     height:900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 2fr 1fr ;
+    grid-gap: 20px;
+    margin: 0px 20px 20px 20px;
+    min-width: 601px
+     
+}
+.row{
+     background-color: brown;
+     height: 280px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+}
+.A{
+    grid-row: 1 / span 2;
+    height: 570px;
+    background-color:#c8d6e5;
+    background-image: url("pexels-photo-590493.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -9;
+}
+.font{
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(17, 17, 17);
+  color: beige;
+  opacity: .6;
+  font-size: 20px;
+  margin-top: 40%;
+  border: 4px;
+  border-radius: 10px;
+
+}
+.B {
+  background-image: url("Adventure.jpeg");
+  height: 280px;    
+}
+.C {
+  background-image: url("Business.jpeg");
+  height: 280px;    
+}
+.D {
+  background-image: url("Canadian Literature.jpeg");
+  height: 280px;    
+}
+.R {
+  background-image: url("Computers.jpeg");
+  height: 280px;    
+}
+.K {
+  background-image: url("Drama.jpg");
+  height: 280px;    
+}
+.j {
+  background-image: url("Adventure.jpeg");
+  height: 280px;    
+}
+.q {
+  background-image: url("horror.jpeg");
+  height: 280px;    
+}
+
+.A1{
+    background-color:rgb(94, 84, 84);
+    margin:0px 20px 0px 20px ;
+    height: 180px;
+    
+}
+.footerhoga{
+  background-color: teal;
+  height: 250px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+/*social media*/
+.social,
+a,
+i {
+    background: none;
+}
+
+.social {
+    position: relative;
+    text-align: center;
+}
+
+.social a {
+    color: rgb(143, 36, 36);
+    font-size: 50px;
+    margin: 15px;
+}
+
+.social a:hover {
+    color: black;
+}

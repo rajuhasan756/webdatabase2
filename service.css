@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .nav{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(155, 113, 113);
+    background-image: url("se.png");
+    background-size: 100% 100%;
+    text-align: center;
+    opacity: .9;
+    
+    
+   
+    
+
+}
+.list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit;
+  }
+  
+  li {
+    float: right;
+    font-size: 25px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(224, 210, 210);
+  }
+  
+
+h1{
+    font-family:'Bungee Shade', cursive;
+    text-decoration: none;
+    color: #bd9595;
+    font-size: 50px;
+    font-weight: 20px;
+    margin-top: 10%;
+     
+    
+    
+}
+
+
+.nav p{
+    margin: 0px 100px 30px 100px;
+    font-size: 22px;
+    color: rgb(255, 242, 242);
+}
+
+.main-contain{
+    height: 535px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows:1fr 1fr  ;
+    grid-gap: 5px;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    background-color: rgb(110, 100, 100);
+
+
+    
+}
+
+.online-serv{
+    background-color: white;
+    height: 240px;
+    width: 630px;
+    margin: 20px 0px 0px 30px;
+    display: flex;
+}
+.fast-serv{
+    background-color:white;
+    height:240px;
+    width: 600px;
+    margin: 20px 0px 0px 10px;
+    display: flex;
+}
+.carri{
+    background-color: white;
+    height:240px;
+    width: 630px;
+    margin: 0px 0px 20px 30px;
+    display: flex;
+}
+.delivery{
+    background-color:white;
+    height: 240px;
+    width: 600px;
+    margin: 0px 0px 20px 10px;
+    display: flex;
+}
+.od{
+    height: 220px;
+    width: 350px;
+    background-color: blue;
+    margin: 2px 2px 2px 2px;
+    background-image: url("on.jpg");
+    background-size: 100% 100%;
+    
+}
+.text{
+    height: 220px;
+    width: 350px;
+    margin: 30px 5px 2px 2px;
+    text-align:left;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fast{
+    height: 220px;
+    width: 350px;
+    background-color:white;
+    margin: 2px 2px 2px 2px;
+    background-image: url("delivery1.jpg");
+    background-size: 100% 100%;
+    opacity: .8;
+}
+.text1{
+    height: 220px;
+    width: 350px;
+    margin: 20px 5px 2px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.car{
+    height: 220px;
+    width: 350px;
+    background-color: blue;
+    margin: 2px 2px 2px 2px;
+    background-image: url("car.jpg");
+    background-size: 100% 100%;
+}
+.text2{
+    height: 220px;
+    width: 350px;
+    
+    margin: 20px 5px 2px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.deli{
+    height: 220px;
+    width: 350px;
+    background-color: blue;
+    margin: 2px 2px 2px 2px;
+    background-image: url("delivery sevice.jpg");
+    background-size: 100% 100%;
+}
+.text3{
+    height: 220px;
+    width: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 5px 2px 5px;
+}
+.text1 button {
+    background-color: rgb(127, 134, 127); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+  .text button {
+    background-color: rgb(127, 134, 127); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+  .text2 button {
+    background-color: rgb(127, 134, 127); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+  .text3 button {
+    background-color: rgb(127, 134, 127); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+
+
+
+
+
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(100, 9, 9);
+    margin: 2px 0px 2px 0px;
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+
+}
